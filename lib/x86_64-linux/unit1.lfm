@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 2216
+  Height = 407
+  Top = 345
+  Width = 400
+  Caption = 'Prime comp'
+  ClientHeight = 407
+  ClientWidth = 400
+  LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 8
+    Height = 34
+    Top = 24
+    Width = 129
+    Caption = 'Start comp'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 8
+    Height = 33
+    Top = 88
+    Width = 130
+    MaxValue = 1000000000
+    MinValue = 5
+    TabOrder = 1
+    Value = 10000
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 8
+    Height = 33
+    Top = 144
+    Width = 128
+    MaxValue = 4
+    MinValue = 1
+    TabOrder = 2
+    Value = 2
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 72
+    Width = 130
+    Caption = 'Search prime up to:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 128
+    Width = 132
+    Caption = 'Number of threads:'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 160
+    Height = 298
+    Top = 24
+    Width = 224
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 3
+  end
+end
